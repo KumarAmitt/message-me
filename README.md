@@ -27,3 +27,9 @@ $(document).on('turbolinks:load', () => {
 ## 2. Adding favicon
 - Add `favicon.ico` file to `/images` folder
 - Add ` <%= favicon_link_tag %>` to head section in `app/views/layouts/application.html.erb`
+
+
+## Hirb Gem - Enables tabular view in rails console
+- Add `gem 'hirb'`
+- Go to rails console and run `Hirb.enable`
+- Now you are good to view data in tabular forms
